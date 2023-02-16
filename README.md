@@ -44,6 +44,8 @@ Fork the project from the original repo to your own repo
 Clone your forked repo using git clone
 There is command tool called pub get in which we can download all types of dependencies listed in the current directory
 Then you can choose whether you can run your project in an emulator or by phone using USB debugging.
+
+
 APPLICATION AND FUTURE SCOPE
 Our app bridges the gap between the good Samaritans and the Non-Profitable Organisation. The Organizers can post important events regarding their organization and willing individuals can take initiative for volunteership. The app is yet to be modified to be used in a broader spectrum.
 
