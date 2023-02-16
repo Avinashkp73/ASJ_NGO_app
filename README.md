@@ -25,6 +25,7 @@ That's where our app - NGO Helper comes in.
 NGO Helper is built to provide a platform to all the NGOs and social workers, where they can connect with each other and work towards a common goal.
 
 PROPOSED SOLUTION
+
 The App asks user to register giving them options to login as an organizer or a volunteer. It first lists down the NGOs at a particular location giving access to two types of users of our app i.e,
 
 Organiser
@@ -37,8 +38,15 @@ Volunteer: Volunteers who wish to work for the NGO can browse the information ab
 
 Contributor: This feature allows the volunteer to fill in the personal details and register themselves for the volunteership program with the respective NGO of their choice.
 
-HOW TO RUN THE PROJECT?
+HOW TO RUN THE PROJECT
+
 Fork the project from the original repo to your own repo
 Clone your forked repo using git clone
 There is command tool called pub get in which we can download all types of dependencies listed in the current directory
 Then you can choose whether you can run your project in an emulator or by phone using USB debugging.
+APPLICATION AND FUTURE SCOPE
+Our app bridges the gap between the good Samaritans and the Non-Profitable Organisation. The Organizers can post important events regarding their organization and willing individuals can take initiative for volunteership. The app is yet to be modified to be used in a broader spectrum.
+
+We wish to further work on improvising our app, add some advanced features like enabling chat and video features , able to donate money and materials, thus making it more flexible. Further, we plan to use our app as a medium between local NGOs and volunteers, so that it can be widely used for serving the purpose. We aim to associate our app with the National Service Scheme(NSS) group at our University who will be responsible for testing and providing us with improved scalability thus making our app ready for a robust launch to be service-ready.
+
+This application is definitely going to help the NGOs to keep the interested volunteers updated about the upcoming events and connect with the contributors , thus by heading towards a more better charitable society.
