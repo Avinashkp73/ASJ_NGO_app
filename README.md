@@ -9,7 +9,7 @@ featuring Abhipsa Swain, GDSC lead and Android Study Jams facilitator and Ashish
 https://www.linkedin.com/posts/gdsc-vssut-burla_android-development-google-activity-6919159709924999168-urSU?utm_source=share&utm_medium=member_desktop
 
 NGO Helper
-A Flutter App for the NGO community.
+A Android App for the NGO community.
 
 NGOs help the world, this app will help NGOs
 
