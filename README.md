@@ -1,54 +1,56 @@
-# ASJ_NGO_app
+# AAP- An app that connects NGO and volunteers
 
-This Android App was developed for the Android Study Jams by the GDSC_VSSUT teamand  was featured by Google Developers.
-Android Study Jams in the campus is one of the most successful campaigns so far with students having learnt the fundamentals of Android App Development and built a collection of apps.
-Check out this video(3:42 - 5:39) 
+<b> PROBLEM STATEMENT </b>
+
+Considering the socio-economic status of 138 crore population of our country, NGO’s in India have been rampantly working towards upliftment of social voids, generating awareness and acting as torch bearers lighting people’s lives.
+All they need are volunteers and support from the privileged one’s and these volunteers act as a backbone of any Non-profit organizations.
+Our application acts as an intermediary between an NGO and an individual willing to volunteer and contribute, thus easing out connectivity and accessibility.
+
+<b> PROPOSED SOLUTION </b>
+
+The App asks users to register giving them options to log in as an Organizer or a Volunteer.
+It first lists down the NGOs at a particular location giving access to two types of users of our app ie,<br>
+1.Organiser<br>
+2.Volunteer<br>
+Organizer: A profile is made that allows users of the app to browse the details of a particular NGO along with the details of the point of contact.
+The organizer gets access to create, edit and update personal credentials as well as manage information regarding her/his NGO.<br>
+
+Volunteer: A volunteer gets in to browse information about different NGOs listed in sorted manner according to the location.This view has two features
+Chat Support/Helpdesk- This helps the volunteer to resolve any kind of queries.<br>
+Contributor- This feature allows the volunteer to fill in personal details and submit an application for contribution.<br>
+
+![appscr](https://user-images.githubusercontent.com/65532996/148741171-831af6a3-3aa5-455e-a50e-aa60d517b515.jpg)
+<br>
+
+<b> FUNCTIONALITY AND CONCEPTS USED </b>
+
+- Live Data and View Model: View Model is used to make the app flexible to changes and the reflected changes in the UI fragments are observed using LiveData.<br>
+- Room Database: The user details are stored using Room Database.Also, it is used for user authentication.<br>
+- Navigation Library: The bottom navigation in our app is implemented using the navigation library in order to ease out navigation between the Join, Donate and Chat options as separate fragments in our app.<br>
+- Retrofit for the internet: The network requests to the API are done using the Retrofit library. When a user logs in or registers, the API returns a token that gets stored in the room database.On every subsequent request made, the token is passed as an authorization header using Retrofit in order to get other authentication datas like user profile details.<br>
+- Recycler view: Recycler view is used to make the app lightweight. It is used to list down the NGOs in our app. Also,the horizontally scrollable gallery in the profile section of our app is created using the Recycler view.<br>
+- setImageResource():This function is used in the  recyclerView adapters to bind the images.It was implemented while working with images.<br>
+- GSON lib: .In our app it is used with retrofit to convert JSON into Kotlin objects for smooth transmission for data between server and our application.<br>
+All the pages were implemented using Fragments and to prevent implementation of functions on the main thread, Coroutines were used.<br>
+
+<b> APPLICATION AND FUTURE SCOPE </b>
+
+
+The app is yet to be modified to be used in a broader spectrum.<br>
+The organiser mode is yet to be worked on and is presently on the server side.<br>
+You can access the link here:
+<a href="https://drive.google.com/drive/folders/1im1f7it62AK0PkW96h-AUdx0nDBDJwYg?usp=sharing">Download apk</a>
+<br>
+We wish to further work on improvising our app, add some advanced features enabling chat and video features to work thus making it more flexible.Further,we plan to collaborate with a few local NGOs so that it can be widely used serving the purpose.<br>
+We aim to associate our app with the National Service Scheme(NSS) group at our University who will be responsible for testing and providing us with improved scalability thus making our app ready for a robust launch to be service-ready.<br>
+This app is definitely going to help the NGOs connect with contributors heading towards a more charitable society.
+
+
+
+
+
+This appliCheck out this video(3:42 - 5:39) 
 https://lnkd.in/dnznkGXy
 featuring Abhipsa Swain, GDSC lead and Android Study Jams facilitator and Ashish kumar , App dev lead at GDSC-VSSUT describing the app.
 
-https://www.linkedin.com/posts/gdsc-vssut-burla_android-development-google-activity-6919159709924999168-urSU?utm_source=share&utm_medium=member_desktop
-
-NGO Helper
-A Android App for the NGO community.
-
-NGOs help the world, this app will help NGOs
-
-MOTIVATION
-In Indian context wherein people are still steeped in superstition, faith, belief and custom, NGOs act as catalysts and create awareness among people. They focus on all the issues concerning human rights, social, environmental and advocacy. Considering the socio-economic status of 138 crore population of our country, NGO’s in India have been rampantly working towards upliftment of social voids, generating awareness and acting as torch bearers lighting people’s lives. All they need are volunteers and support from the privileged one’s and these volunteers act as a backbone of any Non-profit organizations. Our application acts as an intermediary between an NGO and an individual willing to volunteer and contribute, thus easing out connectivity and accessibility.
-
-But sometimes there aren't enough volunteers, or let's say the NGO wants to conduct a program out of it's hometown. In such a case, they would definitely need all the help they can get.
-
-The locals in the town can help the NGO to coordinate their programs. But how?
-
-That's where our app - NGO Helper comes in.
-
-NGO Helper is built to provide a platform to all the NGOs and social workers, where they can connect with each other and work towards a common goal.
-
-PROPOSED SOLUTION
-
-The App asks user to register giving them options to login as an organizer or a volunteer. It first lists down the NGOs at a particular location giving access to two types of users of our app i.e,
-
-Organiser
-Volunteer
-It then redirects them to the respective secure pages.
-
-Organizer: An Organizer gets in to browse the details of a particular NGO along with the details of the point of contact. The Organizer gets access to create, edit and update personal credentials as well as manage the various event information about his/her NGO.
-
-Volunteer: Volunteers who wish to work for the NGO can browse the information about different NGOs listed in sorted manner according to the location. They are provided with two features chat support/helpdesk, this helps them to resolve any kind of queries.
-
-Contributor: This feature allows the volunteer to fill in the personal details and register themselves for the volunteership program with the respective NGO of their choice.
-
-HOW TO RUN THE PROJECT
-
-Fork the project from the original repo to your own repo
-Clone your forked repo using git clone
-There is command tool called pub get in which we can download all types of dependencies listed in the current directory
-Then you can choose whether you can run your project in an emulator or by phone using USB debugging.
-
-
-APPLICATION AND FUTURE SCOPE
-Our app bridges the gap between the good Samaritans and the Non-Profitable Organisation. The Organizers can post important events regarding their organization and willing individuals can take initiative for volunteership. The app is yet to be modified to be used in a broader spectrum.
-
-We wish to further work on improvising our app, add some advanced features like enabling chat and video features , able to donate money and materials, thus making it more flexible. Further, we plan to use our app as a medium between local NGOs and volunteers, so that it can be widely used for serving the purpose. We aim to associate our app with the National Service Scheme(NSS) group at our University who will be responsible for testing and providing us with improved scalability thus making our app ready for a robust launch to be service-ready.
-
-This application is definitely going to help the NGOs to keep the interested volunteers updated about the upcoming events and connect with the contributors , thus by heading towards a more better charitable society.
+https://www.linkedin.com/posts/gdsc-vssut-burla_android-development-google-activity-6919159709924999168-urSU?utm_source=share&utm_medium=member_desktopcation is definitely going to help the NGOs to keep the interested volunteers updated about the upcoming events and 
