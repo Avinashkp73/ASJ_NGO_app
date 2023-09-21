@@ -47,9 +47,7 @@ This app is definitely going to help the NGOs connect with contributors heading 
 
 
 
-
-
-This appliCheck out this video(3:42 - 5:39) 
+Check out this video(3:42 - 5:39) 
 https://lnkd.in/dnznkGXy
 featuring Abhipsa Swain, GDSC lead and Android Study Jams facilitator and Ashish kumar , App dev lead at GDSC-VSSUT describing the app.
 
